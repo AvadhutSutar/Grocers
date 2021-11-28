@@ -2,14 +2,28 @@ import React, { useState } from 'react';
 import './index.css';
 
 const App = () => {
-	// HINT: each "item" in our list names a name,
-	// a boolean to tell if its been completed, and a quantity
+	
 	const [items, setItems] = useState([]);
+    const [inputValue, setInputValue] = useState('');
 
-	const [inputValue, setInputValue] = useState('');
-	//const [totalItemCount, setTotalItemCount] = useState(1);
+	function checkInputValue(){
+	
+			return (
+				alert ("Input cannot be blank")
+			);
+		}
+		
 
 	const handleAddButtonClick = () => {
+    const checkIndex = items.findIndex(items => inputValue === items.itemName );
+		if (inputValue === ""){
+			checkInputValue();
+		} else if (checkIndex !== -1){
+			items[checkIndex].quantity++;
+			setInputValue('');
+			alert ("item already present in the cart & quantity is increased")
+			
+		}else {
 		const newItem = {
 			itemName: inputValue,
 			quantity: 1,
@@ -21,6 +35,8 @@ const App = () => {
 		setItems(newItems);
 		setInputValue('');
 		// calculateTotal();
+	}
+		
 	};
 
 	const handleQuantityIncrease = (index) => {
@@ -59,6 +75,8 @@ const App = () => {
 
 	 const clearAll =(itemList) => {
 		 document.getElementById("itemList").innerHTML = "" ;
+		 window.location.reload(false);
+
 		 
 	 }
 
@@ -71,7 +89,7 @@ const App = () => {
 					<span><button className="add" onClick={() => handleAddButtonClick()}> Add</button></span>
 					 <div><input type="button" value="Clear" onClick={clearAll} /></div> 
 					</div></span>
-					{/* <button className="clearButton" onClick={clearAll}>clear</button> */}
+					
 
 
 					
@@ -101,7 +119,7 @@ const App = () => {
 						</div>
 					))}
 				</div>
-				{/* <div className='total'>Total: {totalItemCount}</div> */}
+				
 			</div>
 		</div>
 	);
