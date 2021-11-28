@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Grocers/static/css/main.f99b53c2.chunk.css",
-    "main.js": "/Grocers/static/js/main.402f94b7.chunk.js",
-    "main.js.map": "/Grocers/static/js/main.402f94b7.chunk.js.map",
-    "runtime-main.js": "/Grocers/static/js/runtime-main.0b6d2b8a.js",
-    "runtime-main.js.map": "/Grocers/static/js/runtime-main.0b6d2b8a.js.map",
-    "static/js/2.fc86b012.chunk.js": "/Grocers/static/js/2.fc86b012.chunk.js",
-    "static/js/2.fc86b012.chunk.js.map": "/Grocers/static/js/2.fc86b012.chunk.js.map",
-    "index.html": "/Grocers/index.html",
-    "static/css/main.f99b53c2.chunk.css.map": "/Grocers/static/css/main.f99b53c2.chunk.css.map",
-    "static/js/2.fc86b012.chunk.js.LICENSE.txt": "/Grocers/static/js/2.fc86b012.chunk.js.LICENSE.txt"
+    "main.css": "/GrocersU/static/css/main.f99b53c2.chunk.css",
+    "main.js": "/GrocersU/static/js/main.f4cda0db.chunk.js",
+    "main.js.map": "/GrocersU/static/js/main.f4cda0db.chunk.js.map",
+    "runtime-main.js": "/GrocersU/static/js/runtime-main.ff6e5555.js",
+    "runtime-main.js.map": "/GrocersU/static/js/runtime-main.ff6e5555.js.map",
+    "static/js/2.fc86b012.chunk.js": "/GrocersU/static/js/2.fc86b012.chunk.js",
+    "static/js/2.fc86b012.chunk.js.map": "/GrocersU/static/js/2.fc86b012.chunk.js.map",
+    "index.html": "/GrocersU/index.html",
+    "static/css/main.f99b53c2.chunk.css.map": "/GrocersU/static/css/main.f99b53c2.chunk.css.map",
+    "static/js/2.fc86b012.chunk.js.LICENSE.txt": "/GrocersU/static/js/2.fc86b012.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b6d2b8a.js",
+    "static/js/runtime-main.ff6e5555.js",
     "static/js/2.fc86b012.chunk.js",
     "static/css/main.f99b53c2.chunk.css",
-    "static/js/main.402f94b7.chunk.js"
+    "static/js/main.f4cda0db.chunk.js"
   ]
 }
